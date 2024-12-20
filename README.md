@@ -14,7 +14,7 @@ Projeto desenvolvido durante os Momentos Online onde aprendemos como utilizar as
 Projeto desenvolvido para exemplificar o processo de validação dos mais diferentes campos de formulários e como trabalhar com eventos em JavaScript.
 
 #### Captura de tela do projeto 📸
-<img src="img2.png" height="300">
+<img src="img2.png" width="500">
 
 ### 3. Exemplo de Slideshow
 Projeto desenvolvido para exemplificar a criação de um Slideshow utilizando apenas HTML, CSS e JavaScript - sem bibliotecas ou frameworks.
