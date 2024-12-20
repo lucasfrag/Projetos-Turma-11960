@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(223, 223, 223);
+}
+
+.nav {
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+.nav a {
+    margin: 15px
+}
+
+.nav a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:visited {
+    text-decoration: none;
+    color: white;    
+}
+
+.nav a:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+.nav a:active {
+    text-decoration: none;
+    color: greenyellow;
+}
+
+
+.formulario {
+    background-color: white;
+    width: 800px;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.input-formulario {
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid black;
+    width: 200px;
+    margin: 5px;
+}
+
+.select-formulario {
+    font-size: 16px;
+    text-align: center;
+    padding: 4px;
+    border: 1px solid black;
+    width: 120px;
+    margin: 5px;
+}
+
+.botao {
+    border-radius: 0;
+    padding: 10px;
+    font-size: 15px;
+    margin: 10px;
+    width: 150px;
+    border: 1px solid white;
+}
+
+.botao-reset {
+    background-color: grey;
+    color: white;
+}
+
+.botao-submit {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.botao-submit:hover {
+    background-color: blue;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8">
+    <link href="./images/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <center>
+
+    <div class="nav">
+        <a href="./index.html">Home</a>
+    </div>
+
+    <div class="formulario">
+        
+        <h2>FORMULÁRIO</h2>
+        <form action="sucesso.html" method="POST" id="formularioAtual">
+            <p>
+                <label>Nome de Usuário: </label><br>
+                <input onchange="validarFormulario()" id="campoNome" type="text" class="input-formulario" required>
+            </p>
+            <p>
+                <label>E-mail: </label><br>
+                <input onchange="validarFormulario()" id="campoEmail" type="email" class="input-formulario">
+            </p>
+            <p>
+                <label>Senha: </label>
+                <div id="dicaSenha"></div>
+                <input  onchange="validarFormulario()" id="campoSenha" type="password" class="input-formulario">
+            </p>
+            <p>
+                <label>Data de nascimento: </label><br>
+                <input onchange="validarFormulario()" id="campoDataNascimento" name="" type="date" class="input-formulario">
+            </p>
+            <p>
+                <label>Sexo:</label><br>
+                <select onchange="validarFormulario()" id="campoSexo" class="select-formulario">
+                    <option value="M">Masculino</option>
+                    <option value="F">Feminino</option>
+                </select>
+            </p>
+            <br>
+            <p>
+                <label>Tecnologias: </label><br><br>
+                <input id="html" type="checkbox" value="HTML"> <label>HTML</label>
+                <input id="css" type="checkbox" value="CSS"> <label>CSS</label>
+                <input id="js" type="checkbox" value="JavaScript"> <label>JavaScript</label>
+                <input id="bootstrap" type="checkbox" value="Bootstrap"> <label>Bootstrap</label>
+                <input id="json" type="checkbox" value="Json Server"> <label>Json Server</label>
+            </p>
+            <br>
+            <p>
+                <label>Tempo de experiência (carteira assinada): </label><br><br>
+                <input id="xpAssinada" class="input-formulario" onchange="validarFormulario()">
+            </p>
+
+            <p>
+                <label>Tempo de experiência (sem carteira assinada): </label><br><br>
+                <input id="xpNaoAssinada" class="input-formulario" onchange="validarFormulario()">
+            </p>
+
+            <p>
+                <input class="botao botao-submit" type="submit" value="Enviar">
+                <input class="botao botao-reset" type="reset" value="Limpar">
+            </p>
+
+        </form>
+    
+    </div>
+
+    <div class="formulario">
+        <h2>RESULTADO: </h2>
+
+        <div id="respostaFormulario"></div>
+    </div>
+</center>
+
+<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+
+</html>
